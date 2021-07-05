@@ -1,0 +1,45 @@
+{"intents": [
+    {"tag":"greeting",
+     "patterns": ["Hi", "Hey","Hi there", "How are you", "Is anyone there","Hola", "Hello", "Good day","Whats up"],
+     "responses": ["Hey", "Hello, thanks for visiting","Hello, thanks for asking", "Hello", "Good see you again!","Hi there, what can I do for you?", "Hi there, how can I help you?"],
+     "context_set": ""
+     },
+    {"tag":"goodbye",
+     "patterns": ["cya","Bye", "see you later", "Goodbye", "I am leaving", "Have a Good day","Thank you for using chatbot"],
+     "responses": ["Sad to see you go","see you later, thanks for visiting", "Talk to you later", "Goodbye!"],
+     "context_set": ""
+     },
+    {"tag":"age",
+     "patterns": ["What is your age", "How old are you"],
+     "responses": ["i'm not a living being, but i can tell you when i was made. engineer yazid started developing me at the end of february 2021."],
+     "context_set": ""
+     },
+     {"tag":"search",
+        "patterns": ["Search"],
+        "responses": ["what do you want to search for"],
+        "context_set": ""
+     },
+     {"tag":"time",
+        "patterns": ["what time is it","what time is"],
+        "responses": ["time"],
+        "context_set": ""
+     },
+     {"tag":"location",
+      "patterns": ["find location", "What is my location", "GPS"],
+      "responses": ["location"],
+      "context_set": ""
+     }, 
+     {"tag":"nameRobot",
+      "patterns": ["whate is your name", "whate should I call you", "whats your name?"],
+     "responses": ["my name is Ali", "I am Ali"],
+     "context_set": ""
+      },
+     {"tag": "noanswer",
+        "patterns": [],
+        "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand"],
+        "context": [""]
+     }
+
+    
+    ]
+}
